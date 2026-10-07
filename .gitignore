@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+mlruns/
+.streamlit/
+*.log
+.env
+.venv/
+env/
+venv/
+reports/figures/*.png
+!reports/figures/.gitkeep
+models/*.joblib
+models/*.model
+!models/.gitkeep
